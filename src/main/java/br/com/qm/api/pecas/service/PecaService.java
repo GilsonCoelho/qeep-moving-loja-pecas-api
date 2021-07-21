@@ -32,6 +32,7 @@ public class PecaService {
 			throw new ErroDeNegocioException("A peça não existe!");
 		}
 		
+		
 		return pecaRepository.findById(codBarras);
 	}
 	
